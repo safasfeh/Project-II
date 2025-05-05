@@ -25,7 +25,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Load ML Model and Scalers ---
-scaler_X = joblib.load('scaler_X.pkl')
+scaler_X = joblib.load('models/scaler_X.pkl')
 scaler_y = joblib.load('scaler_y.pkl')
 model = load_model('ann_water_model.h5')
 
