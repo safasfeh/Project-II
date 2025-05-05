@@ -1,6 +1,7 @@
 streamlit
-tensorflow
-pandas
-scikit-learn
+pillow
 joblib
+tensorflow
+fpdf
 numpy
+pandas
