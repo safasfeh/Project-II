@@ -149,11 +149,6 @@ if reuse_safe:
 else:
     print("\n❌ Result: Water is NOT safe for reuse or discharge.")
 
-pip install streamlit numpy pandas scikit-learn tensorflow
-
-pip install streamlit
-
-pip install streamlit numpy pandas scikit-learn tensorflow joblib
 
 import numpy as np
 import pandas as pd
