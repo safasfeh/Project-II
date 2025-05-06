@@ -163,4 +163,5 @@ elif st.session_state.page == 2:
         href = f'<a href="data:application/pdf;base64,{base64_pdf}" download="water_quality_report.pdf">📅 Download Report as PDF</a>'
         st.markdown(href, unsafe_allow_html=True)
 
-
+# --- Always Show Navigation at Bottom ---
+navigation()
